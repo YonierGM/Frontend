@@ -1,0 +1,61 @@
+.content-login{
+    margin-top: 12%;
+
+}
+
+.content-login-2{
+    width: 70%;
+}
+
+.card-header {
+    color: #3D624F;
+    text-align: center;
+    cursor: pointer;
+    padding: 3%;
+}
+
+.card-header i:hover{
+    color: #698074;
+}
+
+.card-body button{
+    height: 4%;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+button .fas{
+    font-size: 2rem;
+    color: white;
+}
+
+.btn{
+ background-color: #3D624F;
+}
+
+.btn:hover{
+ background-color: #5e7a6b;
+}
+
+.content-add{
+    margin: 0;
+
+}
+
+.aside {
+
+    background-image: url("../../../../assets/imagenes/pexels-irina-iriser-1420004.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    margin-top: 40%;
+    
+}

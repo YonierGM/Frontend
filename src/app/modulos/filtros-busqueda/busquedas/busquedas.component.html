@@ -1,0 +1,84 @@
+<app-navbar></app-navbar>
+
+    <div class="row col-lg-12 content-add mt-4">
+    <div class="col-lg-4">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h3>BUSQUEDAS</h3>
+                </div>
+                <div class="card-body">
+                    <div class="form-add">
+
+                        <div class="BusquedaUsuario mb-4">
+                            <span>Buscar por usuarios</span>
+                            <select class="form-select mb-3" aria-label="Default select example">
+                                <option selected>Juan</option>
+                                <option value="1">pepe</option>
+                                <option value="2">Raul</option>
+                                <option value="3">Luis</option>
+                            </select>
+
+                            <button class="btn btn-save w-100">
+                                <i class="fas fa-search"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="BusquedaAsociacion">
+                            <span>Buscar por asociación</span>
+                            <select class="form-select mb-3" aria-label="Default select example">
+                                <option selected>Analista</option>
+                                <option value="1">Consultor</option>
+                                <option value="2">Marketing</option>
+                                <option value="3">Diseño</option>
+                            </select>
+
+                        <button class="btn btn-save w-100">
+                            <i class="fas fa-search"></i>
+                        </button>
+
+                        </div>
+
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8 aside">
+        <div class="card-body table-responsive">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">NOMBRES</th>
+                    <th scope="col">APELLIDOS</th>
+                    <th scope="col">EMAIL</th>
+                    <th scope="col">DOCUMENTO</th>
+                    <th scope="col">OCUPACIÓN</th>
+                    <th scope="col">OPCIONES</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Miguel</td>
+                    <td>Solis Uran</td>
+                    <td>msolis@gmail.com</td>
+                    <td>24688904</td>
+                    <td>Consultor</td>
+
+                    <td class="opciones">
+    
+                        <button class="btn btn-warning m-1" href=""><i class="fas fa-user-edit"></i></button>
+                        <button class="btn btn-danger m-1" href=""><i class="fas fa-trash"></i></button>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>  
+        </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer>

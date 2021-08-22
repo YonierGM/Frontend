@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+}
+
+.info-jumbotron h1{
+    font-size: 3.5rem;
+}
+
+nav{
+    background-color: #293B2D;
+}
+
+.nav-item, a{
+    cursor: pointer;
+}
+
+.jumbotron-fluid{
+    height: 60vh;
+    background-image: url("../../../../assets/imagenes/header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1.5;
+}
